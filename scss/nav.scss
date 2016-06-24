@@ -1,0 +1,39 @@
+.Nav {
+  .Nav-listItem, .Nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .Nav-listItem {
+    text-align: center;
+  }
+  .Nav-link {
+    background-color: #333;
+    display: block;
+    height: 50vh;
+    line-height: 50vh;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.8s ease-in-out;
+  }
+  .Nav-link--add {
+    background-color: $colorAdd;
+  } 
+  .Nav-link--list {
+    background-color: $colorList;
+  }
+  .Nav-linkSpan {
+    vertical-align:middle;
+    display:inline-block;
+    line-height:1.2;
+  }
+  .Nav-link--add:hover {
+    background-color: darken($colorAdd, 20%);
+    transition: background-color 1s ease-in-out;
+  }
+  .Nav-link--list:hover {
+    background-color: darken($colorList, 20%);
+    transition: background-color 1s ease-in-out;
+  }
+}

@@ -1,0 +1,36 @@
+.CommentList {
+  padding: 0.5rem 2rem;
+  min-height: 100vh;
+
+  .CommentList-container,  .CommentList-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   .CommentList-item {
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #757575;
+      line-height: 1.5;
+      font-size: 0.9rem;
+   }
+   .CommentList-detail {
+      background-color: #4FB77D;
+      color: #fff;
+      padding: 0 2rem;
+      display: inline-block;
+      border-radius: 5px 5px 0 0;
+   }
+   .CommentList-body {
+      background-color: #3F51B5;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 0 5px 5px 5px;
+      margin-bottom: 1rem;
+   }
+   .CommentList-date {
+      text-align: right;
+      font-style: italic;
+      font-size: 0.8rem;
+   }
+}

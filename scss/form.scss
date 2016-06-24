@@ -1,0 +1,44 @@
+.Form {
+  padding: 0.5rem 2rem;
+  .Form-inputContainer {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .Form-input {
+    height: 2.5rem;
+  }
+  .Form-input, .Form-textarea {
+    display: block;
+    font-size: 0.8rem;
+    padding: 0 0.5rem;
+    color: #333;
+    border-radius: 0 5px 0 5px;
+    border: 1px solid #FF9800;
+    width: 100%;
+  }
+  .Form-textarea {
+    resize: vertical;
+    padding: 0.5rem;
+  }
+
+  .Form-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FF9800;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px 5px 0 0 ;
+  }
+  .Form-error {
+    color: #fff;
+    float: right;
+    background-color: #FF5722;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+.Form--addComment {
+  min-height: 100vh;
+  min-width: 320px;
+}

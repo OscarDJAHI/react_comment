@@ -1,0 +1,11 @@
+* { box-sizing: border-box;}
+body { margin: 0; padding: 0; }
+$colorList: #448AFF;
+$colorAdd: #FF5722;
+.CommentApp {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px;
+	background-color: #EFEFEF;
+	color: #757575;
+	min-height: 100vh;
+}
